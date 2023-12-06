@@ -24,6 +24,7 @@ public class College
     }
 
     @Autowired
+    @Qualifier("physicsTeacher")
     public void setTeacher(Teacher teacher) {
         this.teacher = teacher;
     }

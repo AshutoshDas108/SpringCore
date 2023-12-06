@@ -3,8 +3,7 @@ package com.Annotations2_0;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
-@Component("teacherBean")
-@Primary
+@Component
 public class MathTeacher implements Teacher{
     @Override
     public void teach() {
